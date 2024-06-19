@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Steven Universe</title>
+        <link rel="stylesheet" href="estilos.css"/>
+        <style>
+ 
+            body {
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+            
+            #Container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            header {
+                text-align: center;
+            }
+            
+            marquee {
+                width: 100%;
+            }
+            
+            video {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            #content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .article {
+                flex: 1 1 300px;
+                margin: 10px;
+            }
+            
+            aside {
+                flex: 1 1 300px;
+                margin: 10px;
+            }
+            
+            footer {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body> 
+        <div id="Container">
+
+            <header>
+                <h1>Steven Universe</h1>
+            </header>
+
+            <marquee bgcolor="#006699" behavior="alternate" direction="right">
+                <b> <font color="#FFFFCC" size="5">Bienvenido</font></b>
+            </marquee>
+            <h2>A continuación un video de Introducción...</h2>
+            
+            <ul>
+                <video autoplay controls src="Video_Principal.mp4"></video>
+            </ul>
+
+            <div class="clearfix"></div>
+
+            <section id="content">
+
+                <article class="article">
+                    <h2>INFORMACIÓN GENERAL</h2>
+                    <p><a href="Resumen.HTML">INTRODUCCION</a></p>
+                    <p><a href="Premisa principal.HTML">PREMISA</a></p>
+                    <p><a href="ConflictoCentral.HTML">CONFLICTO CENTRAL</a></p>
+                    <p><a href="Temas Imp.HTML">TEMAS IMPORTANTES</a></p>
+                </article>
+
+                <article class="article">
+                    <h2>INTERESES</h2>
+                    <p><a href="Estilo Visual.HTML">ESTILO VISUAL Y NARRATIVO</a></p>
+                    <p><a href="Genero.HTML">GENERO PRINCIPAL  DE LA SERIE</a></p>
+                    <p><a href="Creadores.HTML">CREADORES Y RESPONSABLES</a></p>
+                    <p><a href="Critica.HTML">RESEPCION CRITICA</a></p>
+                </article>
+
+                <article class="article">
+                    <h2>Contacto</h2>
+                    <p>Tel:.............7971161368</p>
+                    <p>Correo:......angelmendezma2007@gmail.com</p>
+                    <p>Ig:..............Catal.902</p>
+                </article>
+
+            </section>
+
+            <aside>
+
+                <h2>Buscar...</h2>
+                <form>
+                    <input type="text">
+                    <input type="submit" value="buscar"/>
+                </form>
+
+            </aside>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </body>
+
+    <footer>
+        <marquee bgcolor="#006699" behavior="alternate" direction="left">
+            <b> <font color="#FFFFCC" size="5"> &copy; 2024 Catal902 Todos los derechos reservados.</font></b>
+        </marquee>
+    </footer>
+
+</html>
